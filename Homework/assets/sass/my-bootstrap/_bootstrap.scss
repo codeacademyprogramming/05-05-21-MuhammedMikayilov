@@ -1,0 +1,47 @@
+.img-fluid{
+    max-width: 100%;
+}
+
+.btn{
+    border-radius: 8px;
+    display: inline-block;
+    font-weight: 400;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    cursor: pointer;
+    color: white;
+}
+
+.mt-1{
+    margin-top: 10px !important;
+}
+
+.mt-5{
+    margin-top: 1rem !important;
+}
+
+
+@each $key, $val in $color-themes {
+    .btn-#{$key} {
+        background-color: $val;
+    }
+    .btn-outline-#{$key} {
+        background-color: transparent;
+        border-color: $val;
+        color: $val;
+        transition: all .5s;
+
+        &:hover {
+            transition: all .5s;
+            background-color: $val;
+            color: #fff !important;
+        }
+    }
+}
+
+@each $key, $val in $color-themes {
+    .text-#{$key}{
+        color: $val;
+    }
+}
+

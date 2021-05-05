@@ -1,7 +1,8 @@
 @import "./partials/variables";
-@import "./mixins/grid";
+@import "./partials/mixins";
 @import "./my-bootstrap/grid";
-@import "./my-bootstrap/buttons";
+@import "./my-bootstrap/bootstrap";
+@import "./partials/sections/header";
 
 
 .box{

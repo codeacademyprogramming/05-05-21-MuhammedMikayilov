@@ -462,6 +462,10 @@
   }
 }
 
+.img-fluid {
+  max-width: 100%;
+}
+
 .btn {
   border-radius: 8px;
   display: inline-block;
@@ -470,6 +474,14 @@
   padding: .375rem .75rem;
   cursor: pointer;
   color: white;
+}
+
+.mt-1 {
+  margin-top: 10px !important;
+}
+
+.mt-5 {
+  margin-top: 1rem !important;
 }
 
 .btn-primary {
@@ -623,6 +635,137 @@
   transition: all .5s;
   background-color: transparent !important;
   color: #fff !important;
+}
+
+.text-primary {
+  color: #007bff !important;
+}
+
+.text-secondary {
+  color: #6c757d !important;
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+.text-warning {
+  color: #ffc107 !important;
+}
+
+.text-info {
+  color: #17a2b8 !important;
+}
+
+.text-dark {
+  color: #343a40 !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-transparent {
+  color: transparent !important;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+nav .nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav .nav-menu .nav-menu-links {
+  display: inline-block;
+}
+
+nav .nav-menu .nav-menu-links .nav-links {
+  color: #5A5B6A;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+nav .form-inline {
+  padding-top: 21px;
+}
+
+nav .form-inline .form {
+  border-radius: 99px;
+  background-color: #EDEDF0;
+  display: inline-block;
+  position: relative;
+  padding: 15px 30px;
+  padding-left: 60px;
+  margin-right: 40px;
+}
+
+nav .form-inline .form img {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+nav .form-inline .form .form-input {
+  width: 200px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+nav .signIn {
+  margin-left: 100px;
+}
+
+nav .cart {
+  box-shadow: 0px 2px 4px rgba(27, 78, 163, 0.2), 0px 4px 8px rgba(41, 121, 255, 0.2);
+  background-color: #fff !important;
+  color: #2264D1;
+  position: relative;
+}
+
+nav .cart span {
+  font-size: 14px;
+  line-height: 17px;
+  /* Red / 60 */
+  position: absolute;
+  background: #F44336;
+  border-radius: 99px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  top: -10px;
+  right: -10px;
+  color: #FFFFFF;
+}
+
+nav .img {
+  display: inline-block;
+  position: relative;
+  width: 41px;
+  height: 25px;
+  margin-left: 24px;
+}
+
+nav .img img {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .box {
