@@ -45,3 +45,31 @@
     }
 }
 
+
+.d-flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.mr--1{
+    margin-right: -9px;
+}
+
+.active{
+    position: relative;
+    background-color: #fff !important;
+    color: $primary-color !important;
+    z-index: 9;
+}
+
+.d-inline-block{
+    display: inline-block !important;
+}
+
