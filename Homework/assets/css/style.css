@@ -940,6 +940,25 @@ nav .img img {
   margin-right: 10px;
 }
 
+.left-side .expanded, .left-side .manufacturing {
+  padding: 10px 20px;
+  background-color: #F7F7FA;
+  margin-top: 20px;
+}
+
+.left-side .expanded span, .left-side .manufacturing span {
+  color: #19191D;
+}
+
+.left-side .expanded .item, .left-side .manufacturing .item {
+  color: #19191D;
+  margin-left: 15px;
+}
+
+.left-side .expanded .form-input, .left-side .manufacturing .form-input {
+  margin-top: 15px;
+}
+
 .show-more {
   justify-content: space-between;
   background: #EBF2FF;
