@@ -11,6 +11,7 @@ $framework-warning: #ffc107!important;
 $framework-info: #17a2b8!important;
 $framework-dark: #343a40!important;
 $framework-white: #fff!important;
+$framework-light: #EDEDF0!important;
 $framework-transparent: transparent !important;
 $container-size: 1024px;
 $columns-count: 12;
@@ -25,6 +26,7 @@ $color-themes: (
     info: $framework-info,
     dark: $framework-dark,
     white: $framework-white,
+    light: $framework-light,
     transparent: $framework-transparent
 );
 

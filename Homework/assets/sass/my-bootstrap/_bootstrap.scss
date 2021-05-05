@@ -73,3 +73,10 @@
     display: inline-block !important;
 }
 
+@each $key, $val in $color-themes {
+    .bg-#{$key}{
+        background-color: $val;
+        color: #352c2c !important;
+    }
+}
+

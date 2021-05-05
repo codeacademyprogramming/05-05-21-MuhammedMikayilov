@@ -61,8 +61,17 @@
             padding-top: 2px;
             img{
                 width: 10px;
-
             }
+        }
+    }
+
+
+    .categories{
+        div{
+            // background-color: #EDEDF0 !important;
+            color: $text-color;
+            border-radius: 99px;
+            font-size: 10px;
         }
     }
 }
