@@ -1,0 +1,13 @@
+@import "./partials/variables";
+@import "./partials/mixins";
+@import "./my-bootstrap/grid";
+@import "./my-bootstrap/bootstrap";
+@import "./partials/sections/header";
+@import "./partials/sections/page";
+
+
+.box{
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+}

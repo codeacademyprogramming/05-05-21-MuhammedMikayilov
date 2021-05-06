@@ -1,0 +1,40 @@
+$main-color: #5A5B6A;
+$text-color: #19191D;
+$text-muted: #787885;
+
+$bg-color: #EBF2FF;
+
+$primary-color: #2264D1 !default;
+$framework-primary: #007bff !important;
+$framework-secondary: #6c757d !important;
+$framework-success: #28a745!important;
+$framework-danger: #dc3545!important;
+$framework-warning: #ffc107!important;
+$framework-info: #17a2b8!important;
+$framework-dark: #343a40!important;
+$framework-white: #fff!important;
+$framework-light: #EDEDF0!important;
+$framework-transparent: transparent !important;
+$container-size: 80%;
+$columns-count: 12;
+$padding-size: 15px;
+
+$color-themes: (
+    primary: $framework-primary,
+    secondary: $framework-secondary,
+    success: $framework-success,
+    danger: $framework-danger,
+    warning: $framework-warning,
+    info: $framework-info,
+    dark: $framework-dark,
+    white: $framework-white,
+    light: $framework-light,
+    transparent: $framework-transparent
+);
+
+$breakpoints: (
+    xs: 0,
+    sm: 480px,
+    md: 768px,
+    lg: 1024px
+)

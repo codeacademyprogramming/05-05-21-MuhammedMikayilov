@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: $container-size;
+    margin: 0 auto;
+    padding-right: $padding-size;
+    padding-left: $padding-size;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+@each $key, $val in $breakpoints {
+    @include column-size($key, $val)
+}

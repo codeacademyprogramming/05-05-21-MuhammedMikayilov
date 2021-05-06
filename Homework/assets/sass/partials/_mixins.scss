@@ -1,0 +1,17 @@
+@mixin column-size($key, $val) {
+    @for $i from 1 through $columns-count {
+        .col-#{$key}-#{$i}{
+            width: 100%;
+            padding: 10px;
+        }
+    }
+   @media (min-width: #{$val}) {
+        @for $i from 1 through $columns-count {
+            .col-#{$key}-#{$i}{
+                width: calc(100% / 12 * #{$i});
+                padding: 10px;
+            }
+        }
+   }
+}
+

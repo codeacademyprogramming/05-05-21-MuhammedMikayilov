@@ -1,0 +1,27 @@
+// .btn{
+//     border-radius: 8px;
+//     display: inline-block;
+//     font-weight: 400;
+//     border: 1px solid transparent;
+//     padding: .375rem .75rem;
+//     cursor: pointer;
+//     color: white;
+    
+//     @each $key, $val in $color-themes {
+//         &-#{$key} {
+//             background-color: $val;
+//         }
+//         &-outline-#{$key} {
+//             background-color: transparent;
+//             border-color: $val;
+//             color: $val;
+//             transition: all .5s;
+
+//             &:hover {
+//                 transition: all .5s;
+//                 background-color: $val;
+//                 color: #fff !important;
+//             }
+//         }
+//     }
+// }

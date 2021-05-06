@@ -1,0 +1,91 @@
+.img-fluid{
+    max-width: 100%;
+}
+
+.btn{
+    border-radius: 8px;
+    display: inline-block;
+    font-weight: 400;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    cursor: pointer;
+    color: white;
+}
+
+.mt-1{
+    margin-top: 10px !important;
+}
+
+.mt-5{
+    margin-top: 1rem !important;
+}
+
+
+@each $key, $val in $color-themes {
+    .btn-#{$key} {
+        background-color: $val;
+    }
+    .btn-outline-#{$key} {
+        background-color: transparent;
+        border-color: $val;
+        color: $val;
+        transition: all .5s;
+
+        &:hover {
+            transition: all .5s;
+            background-color: $val;
+            color: #fff !important;
+        }
+    }
+}
+
+@each $key, $val in $color-themes {
+    .text-#{$key}{
+        color: $val;
+    }
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.mr--1{
+    margin-right: -9px;
+}
+
+.active{
+    position: relative;
+    background-color: #fff !important;
+    color: $primary-color !important;
+    z-index: 9;
+}
+
+.d-inline-block{
+    display: inline-block !important;
+}
+
+@each $key, $val in $color-themes {
+    .bg-#{$key}{
+        background-color: $val;
+        color: #352c2c !important;
+    }
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.w-37 {
+    width: 37% !important;
+    padding: 10px 8px !important;
+    text-align: center;
+}
